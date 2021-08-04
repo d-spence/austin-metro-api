@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austin Metro API</title>
+  <style>
+    body {
+      background: #ddd;
+      color: #333;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    .icon {
+      width: 60px;
+    }
+
+    .icon svg {
+      width: 100%;
+      height: auto;
+    }
+
+    .icon:hover .plane {
+      fill: #e95d0c;
+    }
+
+    .status {
+      border: 1px solid black;
+      background-color: green;
+      width: max-content;
+      margin: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Austin Metro API</h2>
+    <div class="status">Status: <b>ONLINE</b></div>
+    <!-- <div class="icon">
+      <svg width="238.45" height="228.25" viewbox="0 0 238.45 228.25" version="1.0" xmlns="http://www.w3.org/2000/svg">
+        <path class="plane" d="m194.67 2.8422e-14 -124.03 53.625c-10.382-6.9211-34.201-21.275-38.905-23.449-39.44-18.221-36.945 14.731-20.349 24.605 4.5392 2.7006 27.724 17.178 43.473 26.375l17.906 133.94 22.219 13.156 11.531-120.94 71.531 36.688 3.8438 39.219 14.531 8.625 11.094-42.406 0.125 0.0625 30.812-31.531-14.875-8-35.625 16.906-68.281-42.438 97.688-72.187-22.688-12.25z" fill-rule="evenodd" fill="#ffffff"/>
+      </svg>
+    </div> -->
+  </header>
+  <main>
+    <h3>Info</h3>
+    <p>This web service is not affiliated with the Capital Metropolitan Transportation Authority.</p>
+    <p>I make no claims or guarantees on the accuracy of this service.</p>
+    <p>Public transit data is provided by Capital Metro on the <a href="https://data.texas.gov/">Texas Open Data Portal</a>.</p>
+    <p>For the most accurate times, visit the official <a href="https://www.capmetro.org/">Capital Metro</a> website.</p>
+
+    <h3>Contact</h3>
+    <p>If you'd like to report a problem or request a feature you can email me using the following address.</p>
+    <p><strong>Email:</strong> <a href="mailto:AustinMetro@dspence.net">AustinMetro@dspence.net</a></p>
+  </main>
+</body>
+</html>
